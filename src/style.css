@@ -12,7 +12,7 @@ body {
   background-color: #eaf4ff;
 }
 
-header {
+.header {
   background-color: white;
 }
 
@@ -34,7 +34,7 @@ header {
 .nav-item {
   display: flex;
   align-items: center;
-  margin: 0 2cqi 0 0;
+  margin: 0 20px 0 0;
   height: 60px;
 }
 
@@ -69,4 +69,8 @@ li:last-child {
   height: 4px;
   border-radius: 8px;
   background-color: var(--blue);
+}
+
+.nav .is-active {
+  color: var(--blue);
 }
