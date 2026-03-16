@@ -9,7 +9,6 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   margin: 0;
-  background-color: #eaf4ff;
 }
 
 .header {
@@ -31,15 +30,14 @@ body {
   display: flex;
 }
 
-.nav-item {
+.a-item {
   display: flex;
   align-items: center;
-  margin: 0 20px 0 0;
   height: 60px;
 }
 
-li:last-child {
-  margin-right: 0;
+.nav-item {
+  margin-right: 20px;
 }
 
 .nav,
@@ -50,20 +48,24 @@ li:last-child {
   color: black;
 }
 
+.nav-item:last-child {
+  margin: 0;
+}
+
 .logo {
   padding: 10px 0;
   height: 40px;
   width: 40px;
 }
 
-.nav a:hover {
+.nav .a-item:hover {
   color: var(--blue);
 }
 
 .is-active::after {
   content: '';
   position: absolute;
-  bottom: -24px;
+  bottom: 0;
   width: 100%;
   display: block;
   height: 4px;
