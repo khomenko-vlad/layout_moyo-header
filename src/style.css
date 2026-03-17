@@ -7,7 +7,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   margin: 0;
 }
 
@@ -34,22 +34,18 @@ body {
   display: flex;
   align-items: center;
   height: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  position: relative;
 }
 
 .nav-item {
   margin-right: 20px;
 }
 
-.nav,
-.a-item {
-  position: relative;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
 .nav-item:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 .logo {
